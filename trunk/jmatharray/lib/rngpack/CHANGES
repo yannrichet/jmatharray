@@ -1,0 +1,23 @@
+RNGPack 1.1a ---
+* Fixed incorrect coeffient in raw(float f[],int n) method of Ranecu
+* Documentation fixes
+
+RNGPack 1.1 ----
+
+* Fix incorrect coefficient in Ranecu implementation (Thanks to Gerd 
+  Knochenhauer)
+  Knochenhauer
+* Update web site URL,  e-mail address in Javadoc
+* Fix off-by-one bug in choose() method
+* Comment clarifications
+* Coin toss function
+* Use string interning in RandomApp
+* retab RandomApp
+* add test harness for choose1,  choose2, coin1 and coin2 to RandomApp.
+* retab RandomElement
+* make RandomElement Clonable (for COLT)
+* make clone() method public (for COLT)
+* made Ranmar, Ranecu, and Ranlux serializable
+* RandomSynchronized wrapper for thread safety
+* New Mersenne Twister generator (RanMT)
+* License change to BSD
