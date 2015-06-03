@@ -26,21 +26,24 @@ JMathArray syntax is stable. Only new features may be added, and current syntax 
 ## Use it ##
 
 
-Put https://github.com/yannrichet/jmatharray/blob/master/dist/jmatharray.jar in your java classpath, then add a static import statement in your class:
+Put https://github.com/yannrichet/jmatharray/blob/master/dist/jmatharray.jar in your java classpath
+
+Or include maven dependency:
+```xml
+<dependencies>
+...
+    <dependency>
+      <groupId>com.github.yannrichet</groupId>
+      <artifactId>jmatharray</artifactId>
+      <version>1.0</version>
+    </dependency>
+...
+</dependencies>
+```
+
+Then add a static import statement in your class:
 ```java
 import static org.math.array.DoubleArray.*;
 import static org.math.array.LinearAlgebra.*;
 import static org.math.array.StatisticSample.*;
 ```
-
-Or include maven artifact:
-
-<dependencies>
-...
-        <dependency>
-            <groupId>com.github.yannrichet</groupId>
-            <artifactId>jmatharray</artifactId>
-            <version>1.0</version>
-        </dependency>
-...
-</dependencies>
