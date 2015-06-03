@@ -26,7 +26,7 @@ JMathArray syntax is stable. Only new features may be added, and current syntax 
 ## Use it ##
 
 
-Put https://github.com/yannrichet/jmathio/blob/master/dist/jmatharray.jar in your java classpath, then add a static import statement in your class:
+Put https://github.com/yannrichet/jmatharray/blob/master/dist/jmatharray.jar in your java classpath, then add a static import statement in your class:
 ```java
 import static org.math.array.DoubleArray.*;
 import static org.math.array.LinearAlgebra.*;
