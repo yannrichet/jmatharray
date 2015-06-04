@@ -34,8 +34,8 @@ public class Sorting {
      * @param array
      *            Array to sort.
      * @param copyArray
-     *            Specify if the sort is made directly : true -> array is
-     *            modified (usefull for big arrays !), false -> array is copied
+     *            Specify if the sort is made directly : true then array is
+     *            modified (usefull for big arrays !), false then array is copied
      *            and not modified (more memory used).
      */
 

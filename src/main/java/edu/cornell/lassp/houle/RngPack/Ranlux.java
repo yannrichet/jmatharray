@@ -28,6 +28,7 @@ import java.io.Serializable;
 * <BR>
 * <CENTER>
 * <TABLE BORDER WIDTH=80%>
+ * <caption></caption>
 * <TR>
 * <TD ALIGN=center COLSPAN=3>
 * <A NAME="luxury"><FONT SIZE=+2>LUXURY LEVELS</FONT></A>
@@ -235,7 +236,7 @@ public void setDiag(boolean b) {
 *
 * The random number generator.
 *
-* @returns a pseudo-random double in the range (0,1)
+* @return a pseudo-random double in the range (0,1)
 */
 
 public final double raw() {

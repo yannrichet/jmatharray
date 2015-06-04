@@ -64,7 +64,7 @@ public abstract class RandomSeedable extends RandomElement {
 /**
 *
 * Return a long integer seed calculated from the date.  Equivalent to
-* <CODE>ClockSeed(new Date());
+* <CODE>ClockSeed(new Date());</CODE>
 *
 * @return a long integer seed
 *

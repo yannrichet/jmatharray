@@ -71,7 +71,7 @@ public class DoubleArray {
 	 * 0.0 1.0 0.0<br>
 	 * 0.0 0.0 1.0<br>
 	 * </code>
-	 * @param m an integer > 0.
+	 * @param m an integer &gt; 0.
 	 * @return m x m two dimensional array of doubles.
 	 */
 	public static double[][] identity(int m) {
@@ -88,7 +88,7 @@ public class DoubleArray {
 	 * 0.0 2.1 0.0<br>
 	 * 0.0 0.0 2.1<br>
 	 * </code>
-	 * @param m an integer > 0.
+	 * @param m an integer &gt; 0.
 	 * @param c Constant that lies along diagonal. Set c=1 for identity matrix.
 	 * @return m x m 2D array of doubles.
 	 */
@@ -1052,8 +1052,8 @@ public class DoubleArray {
 	 * 0  44<br>
 	 * </code>
 	 * @param x Input array
-	 * @param J1 Index of first element to delete. Must be >= 0 and <= x.length
-	 * @param J2 Index of last element to delete. Must be >= J1 and <= x.length
+	 * @param J1 Index of first element to delete. Must be &gt; = 0 and &lt; = x.length
+	 * @param J2 Index of last element to delete. Must be &gt; = J1 and &lt; = x.length
 	 * @return Reduced array.
 	 */
 	public static double[] deleteRange(double[] x, int J1, int J2) {
@@ -1074,7 +1074,7 @@ public class DoubleArray {
 	 * 0  22  44<br>
 	 * </code>
 	 * @param x Input array
-	 * @param J Index of elements to delete. Each must be >= 0 and <= x.length
+	 * @param J Index of elements to delete. Each must be &gt; = 0 and &lt; = x.length
 	 * @return Reduced array.
 	 */
 	public static double[] delete(double[] x, int... J) {

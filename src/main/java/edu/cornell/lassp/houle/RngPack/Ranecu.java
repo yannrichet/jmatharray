@@ -48,7 +48,7 @@ public static int DEFSEED2=67890;
 
 /**
 *
-* Initialize <BOLD>RANECU</BOLD> with the default seeds from
+* Initialize <B>RANECU</B> with the default seeds from
 * James.
 *
 */
@@ -60,7 +60,7 @@ public Ranecu() {
 
 /**
 *
-* Initialize <BOLD>RANECU</BOLD> with two specified integer seeds.  Use
+* Initialize <B>RANECU</B> with two specified integer seeds.  Use
 * this to introduce repeatable seeds.  Equivalent to
 *
 * <CODE>Ranecu(s1*(long) Integer.MAX_VALUE)+s2)</CODE>

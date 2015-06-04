@@ -14,7 +14,7 @@ public class IntegerArray {
 	/**
 	 * Returns an m x m matrix. result has constants along the diagonal
 	 * and zeros everywhere else.
-	 * @param m an integer > 0.
+	 * @param m an integer &gt; 0.
 	 * @param c Constant that lies along diagonal. Set c=1 for identity matrix.
 	 * @return m x m two dimensional array of integers.
 	 */
@@ -767,8 +767,8 @@ public class IntegerArray {
 	 * 0  44<br>
 	 * </code>
 	 * @param x Input array
-	 * @param J1 Index of first element to delete. Must be >= 0 and <= x.length
-	 * @param J2 Index of last element to delete. Must be >= J1 and <= x.length
+	 * @param J1 Index of first element to delete. Must be &gt; = 0 and &lt; = x.length
+	 * @param J2 Index of last element to delete. Must be &gt;= J1 and &lt; = x.length
 	 * @return Reduced array.
 	 */
 	public static int[] deleteRange(int[] x, int J1, int J2) {
@@ -789,7 +789,7 @@ public class IntegerArray {
 	 * 0  22  44<br>
 	 * </code>
 	 * @param x Input array
-	 * @param J Index of elements to delete. Each must be >= 0 and <= x.length
+	 * @param J Index of elements to delete. Each must be &gt; = 0 and &lt; x.length
 	 * @return Reduced array.
 	 */
 	public static int[] delete(int[] x, int... J) {
