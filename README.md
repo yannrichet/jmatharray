@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/yannrichet/jmatharray.png)](https://travis-ci.org/yannrichet/jmatharray)
+
 # JMathArray: basic math in Java #
 
 JMathArray provides classes with static methods for basic math in Java. Random number generations is based on RngPack?, linear algebra is based on Jama.
