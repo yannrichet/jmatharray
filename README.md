@@ -49,3 +49,7 @@ import static org.math.array.DoubleArray.*;
 import static org.math.array.LinearAlgebra.*;
 import static org.math.array.StatisticSample.*;
 ```
+
+
+
+![Analytics](https://ga-beacon.appspot.com/UA-109580-20/jmatharray)
