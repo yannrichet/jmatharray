@@ -1,5 +1,6 @@
-[![Build Status](https://travis-ci.org/yannrichet/jmatharray.png)](https://travis-ci.org/yannrichet/jmatharray)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.yannrichet/JMathArray/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.yannrichet/JMathArray)
+[![Build Status](https://travis-ci.org/yannrichet/jmatharray.png)](https://travis-ci.org/yannrichet/jmatharray)
+[![codecov](https://codecov.io/gh/yannrichet/jmatharray/branch/master/graph/badge.svg)](https://codecov.io/gh/yannrichet/jmatharray)
 
 # JMathArray: basic math in Java
 
